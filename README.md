@@ -15,9 +15,10 @@ This repo contains two JXA (JavaScript for Automation) scripts for extracting in
 
 > jsimport Firefox_extract_cookies.js (or jsimport Firefox_extract_history.js)
 
+> jsimport_call cookie_extract() (or jsimport_call history_extract())
+
 ![Image](ffox1.png)
 
-> jsimport_call cookie_extract() (or jsimport_call history_extract())
 
 ![Image](ffox2.png)
 

@@ -67,4 +67,3 @@ catch(err){
 
 
 
-cookie_extract()

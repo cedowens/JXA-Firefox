@@ -61,4 +61,3 @@ catch(err){
 }
 }
 
-history_extract()

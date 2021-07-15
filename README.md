@@ -11,6 +11,8 @@ This repo contains two JXA (JavaScript for Automation) scripts for extracting in
 
 **Date | URL**
 
+**Neither sqlite database file is protected by TCC so these files are readable without any TCC popups. If either file is locked (browser running), you can simply copy the file to another location and read from that file instead**
+
 ## Using With Mythic C2
 
 > jsimport Firefox_extract_cookies.js (or jsimport Firefox_extract_history.js)

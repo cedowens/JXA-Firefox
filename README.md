@@ -19,6 +19,10 @@ This repo contains two JXA (JavaScript for Automation) scripts for extracting in
 
 > jsimport_call cookie_extract() (or jsimport_call history_extract())
 
+You can also run either cookie or history collection for a specific user, by passing their username as an option like this:
+
+> jsimport_call cookie_extract({user: "dev"}) (or jsimport_call history_extract({user: "dev"}))
+
 ![Image](ffox1.png)
 
 
